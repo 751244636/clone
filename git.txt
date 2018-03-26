@@ -1,0 +1,23 @@
+创建一个版本库
+cd /d/163git19
+
+
+在目录中使用init命令
+git init
+
+
+添加文件到版本库
+git add a1.txt
+
+
+用commit命令将修改的文件传送到版本库
+git commit --messsage "第一次提交"
+
+将文件添加到远程库中（默认库origin）
+git remote add origin https://github.com/751244636/163GIT.git
+
+用push命令将文件提交传送到其他版本库
+git push -u origin master
+
+将在github中的库克隆复制到其他文件下
+git clone https://github.com/751244636/163GIT.git
